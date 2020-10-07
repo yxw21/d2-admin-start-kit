@@ -1,3 +1,5 @@
+import i18n from '@/i18n'
+
 /**
  * @description 创建菜单
  * @param {Function} h createElement
@@ -12,7 +14,7 @@ export function elMenuItem (h, menu) {
     key={ menu.path }
     index={ menu.path }>
     { icon }
-    <span slot="title">{ menu.title || '未命名菜单' }</span>
+    <span slot="title">{ i18n.t(menu.title) || i18n.t('layout.header-aside.menu-item.label-default') }</span>
   </el-menu-item>
 }
 
@@ -30,7 +32,7 @@ export function elSubmenu (h, menu) {
     key={ menu.path }
     index={ menu.path }>
     { icon }
-    <span slot="title">{ menu.title || '未命名菜单' }</span>
+    <span slot="title">{ i18n.t(menu.title) || i18n.t('layout.header-aside.menu-item.label-default') }</span>
     { menu.children.map(child => createMenu.call(this, h, child)) }
   </el-submenu>
 }

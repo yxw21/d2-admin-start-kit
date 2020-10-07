@@ -2,6 +2,7 @@ import { Message, MessageBox } from 'element-ui'
 import util from '@/libs/util.js'
 import router from '@/router'
 import api from '@/api'
+import i18n from '@/i18n'
 
 export default {
   namespaced: true,
@@ -51,14 +52,14 @@ export default {
       // 判断是否需要确认
       if (confirm) {
         commit('d2admin/gray/set', true, { root: true })
-        MessageBox.confirm('确定要注销当前用户吗', '注销用户', { type: 'warning' })
+        MessageBox.confirm(i18n.t('public.confirm.special.logout.message'), i18n.t('public.confirm.special.logout.title'), { type: 'warning' })
           .then(() => {
             commit('d2admin/gray/set', false, { root: true })
             logout()
           })
           .catch(() => {
             commit('d2admin/gray/set', false, { root: true })
-            Message({ message: '取消注销操作' })
+            Message({ message: i18n.t('public.message.special.logout.cancel') })
           })
       } else {
         logout()

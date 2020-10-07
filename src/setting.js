@@ -1,3 +1,5 @@
+import i18n from '@/i18n'
+
 export default {
   // 快捷键
   // 支持快捷键 例如 ctrl+shift+s
@@ -19,7 +21,7 @@ export default {
         name: 'index',
         fullPath: '/index',
         meta: {
-          title: '首页',
+          title: i18n.t('views.system.index.title'),
           auth: false
         }
       }

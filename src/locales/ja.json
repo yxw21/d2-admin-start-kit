@@ -1,11 +1,242 @@
 {
-	"_element": "ja",
 	"_name": "日本語",
-	"page": {
-		"demo": {
-			"playground": {
-				"locales": {
-					"text": "D2Adminは、最新のフロントエンドテクノロジースタックを使用した、完全にオープンソースの無料エンタープライズバックエンド製品フロントエンド統合ソリューションであり、プロジェクトのほとんどの準備を整えており、システムのアジャイル開発の管理に役立つ多くのサンプルコードを備えています。"
+	"el": {
+		"colorpicker": {
+			"clear": "空の",
+			"confirm": "確認する"
+		},
+		"messagebox": {
+			"cancel": "キャンセル",
+			"confirm": "確認する"
+		}
+	},
+	"layout": {
+		"header-aside": {
+			"header-fullscreen": {
+				"active": "全画面",
+				"exit": "全画面を終了"
+			},
+			"header-log": {
+				"empty": "ログや例外はありません",
+				"error-length": " {length} 個の例外が含まれています",
+				"log-length": "{length} 個のログ"
+			},
+			"header-size": {
+				"notify": {
+					"message": "ページ上の <b>コンポーネント</b> の <b>デフォルトサイズ</b><br/>、ボタンサイズ、<b>非フォント</b>などを更新しました",
+					"title": "プロンプト"
+				},
+				"options": {
+					"default": "デフォルト",
+					"medium": "普通",
+					"mini": "最小",
+					"small": "小さい"
+				}
+			},
+			"header-theme": {
+				"dialog": {
+					"title": "テーマ"
+				},
+				"list": {
+					"button": {
+						"is-active": "有効化",
+						"select": "選ぶ"
+					},
+					"column": {
+						"label": {
+							"preview": "プレビュー"
+						}
+					}
+				},
+				"tooltip": {
+					"content": "テーマ"
+				}
+			},
+			"header-user": {
+				"hello": "こんにちは",
+				"log-off": "ログアウト",
+				"not-login": "ログインしていません"
+			},
+			"menu-item": {
+				"label-default": "名前のないメニュー"
+			},
+			"menu-side": {
+				"empty": "サイドバーメニューなし"
+			},
+			"message": {
+				"warning": {
+					"temporary-menu": "一時メニュー"
+				}
+			},
+			"panel-search": {
+				"autocomplete-placeholder": "検索ページ",
+				"tip": "ショートカットキー <span class='panel-search__key'>{open}</span> を使用して検索パネルを起動し、 <span class='panel-search__key'>{close}</span> を押して閉じることができます"
+			},
+			"tabs": {
+				"close-all": "すべて閉じる",
+				"close-left": "左に閉じる",
+				"close-other": "その他を閉じる",
+				"close-right": "右に閉じる",
+				"label-default": "無名：",
+				"refresh": "更新する"
+			}
+		}
+	},
+	"locales-change": {
+		"current-language": "現在の言語",
+		"title": "言語の変更"
+	},
+	"public": {
+		"confirm": {
+			"special": {
+				"logout": {
+					"message": "",
+					"title": ""
+				}
+			}
+		},
+		"message": {
+			"error": {
+				"form": {
+					"invalid": ""
+				}
+			},
+			"special": {
+				"logout": {
+					"cancel": ""
+				}
+			}
+		},
+		"notify": {
+			"special": {
+				"upload": {
+					"error": {
+						"message": "",
+						"title": ""
+					},
+					"start": {
+						"message": "",
+						"title": ""
+					},
+					"success": {
+						"message": "",
+						"title": ""
+					}
+				}
+			}
+		},
+		"rules": {
+			"required": ""
+		}
+	},
+	"views": {
+		"index": {
+			"menu": {
+				"title": "ホームページ"
+			}
+		},
+		"program": {
+			"menu": {
+				"title": "ベンダー管理"
+			}
+		},
+		"system": {
+			"error": {
+				"404": {
+					"back": "家に戻る"
+				}
+			},
+			"index": {
+				"cover": {
+					"build-time": "構築時間",
+					"github-fork-alt": "GitHubでフォークしてください",
+					"sub-title": "エレガントなミッドバックグラウンド統合ソリューション",
+					"title": "D2管理者"
+				},
+				"help": {
+					"button": "助けが必要ですか？",
+					"dialog": {
+						"join": {
+							"qq": {
+								"sub-title": "2,000人のユーザーに参加してお互いにコミュニケーション",
+								"title": "上記のQRコードをスキャンするには、携帯電話のQQを使用してください"
+							},
+							"we": {
+								"sub-title": "著者を追加するWeChat友達、WeChatグループに参加するよう招待する",
+								"title": "携帯電話のWeChatを使用してQRコードをスキャンしてください"
+							}
+						},
+						"link": {
+							"text": {
+								"doc": "文書",
+								"issues": "歴史的な質問",
+								"new-issue": "Githubで質問する"
+							}
+						},
+						"sub-title": {
+							"doc": "ここにいくつかの参照があります",
+							"join": "他のユーザーや作者に尋ねる"
+						},
+						"title": "ヘルプ"
+					}
+				},
+				"page": {
+					"link": {
+						"href": {
+							"doc": "https://doc.d2admin.fairyever.com/zh/"
+						},
+						"text": {
+							"d2-projects": "オープンソース組織",
+							"daily": "日刊新聞",
+							"doc": "文書",
+							"ice": "飛んでいる氷",
+							"juejin": "ナゲット",
+							"start-kit": "スターターバージョン"
+						}
+					},
+					"we": {
+						"button": "WeChatパブリック番号",
+						"introduce": "公式の公開番号。主にフロントエンドの技術記事、フレームワークリソース、学習チュートリアル、およびD2シリーズプロジェクトの更新情報をプッシュします。",
+						"title": "今日のフロントエンド"
+					}
+				}
+			},
+			"log": {
+				"table": {
+					"empty-text": "ログ情報はまだありません",
+					"label": {
+						"component": "トリガーコンポーネント",
+						"message": "情報",
+						"more": "詳細を見る",
+						"time": "時間",
+						"url": "トリガーページ"
+					}
+				},
+				"upload": {
+					"button": " {number} データをアップロード"
+				}
+			},
+			"login": {
+				"errors": {
+					"callback": "アカウントまたはパスワードが正しくありません",
+					"form": {
+						"password": "パスワードを入力してください",
+						"username": "ユーザー名を入力してください",
+						"validate": "フォームの検証に失敗しました"
+					}
+				},
+				"form": {
+					"button": {
+						"login": "ログイン"
+					},
+					"label": {
+						"password": "パスワード",
+						"username": "ユーザー名"
+					},
+					"placeholder": {
+						"password": "パスワード",
+						"username": "ユーザー名"
+					}
 				}
 			}
 		}

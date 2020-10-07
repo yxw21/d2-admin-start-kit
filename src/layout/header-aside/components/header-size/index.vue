@@ -5,7 +5,7 @@
     </el-button>
     <el-dropdown-menu slot="dropdown">
       <el-dropdown-item v-for="item in options" :key="item.value" :command="item.value">
-        <d2-icon :name="iconName(item.value)" class="d2-mr-5"/>{{item.label}}
+        <d2-icon :name="iconName(item.value)" class="d2-mr-5"/>{{$t(item.label)}}
       </el-dropdown-item>
     </el-dropdown-menu>
   </el-dropdown>
@@ -18,10 +18,10 @@ export default {
   data () {
     return {
       options: [
-        { label: '默认', value: 'default' },
-        { label: '中', value: 'medium' },
-        { label: '小', value: 'small' },
-        { label: '最小', value: 'mini' }
+        { label: 'layout.header-aside.header-size.options.default', value: 'default' },
+        { label: 'layout.header-aside.header-size.options.medium', value: 'medium' },
+        { label: 'layout.header-aside.header-size.options.mini', value: 'small' },
+        { label: 'layout.header-aside.header-size.options.small', value: 'mini' }
       ]
     }
   },
@@ -40,9 +40,9 @@ export default {
     handleChange (value) {
       this.sizeSet(value)
       this.$notify({
-        title: '提示',
+        title: this.$t('layout.header-aside.header-size.notify.title'),
         dangerouslyUseHTMLString: true,
-        message: '已更新页面内 <b>组件</b> 的 <b>默认尺寸</b><br/>例如按钮大小，<b>非字号</b>',
+        message: this.$t('layout.header-aside.header-size.notify.message'),
         type: 'success'
       })
     },

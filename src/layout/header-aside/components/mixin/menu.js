@@ -1,10 +1,11 @@
 import util from '@/libs/util.js'
+import i18n from '@/i18n'
 
 export default {
   methods: {
     handleMenuSelect (index, indexPath) {
       if (/^d2-menu-empty-\d+$/.test(index) || index === undefined) {
-        this.$message.warning('临时菜单')
+        this.$message.warning(i18n.t('layout.header-aside.message.warning.temporary-menu'))
       } else if (/^https:\/\/|http:\/\//.test(index)) {
         util.open(index)
       } else {

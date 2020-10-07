@@ -1,11 +1,242 @@
 {
-	"_element": "zh-TW",
 	"_name": "繁體中文",
-	"page": {
-		"demo": {
-			"playground": {
-				"locales": {
-					"text": "D2Admin 是一個完全 開源免費 的企業中後台產品前端集成方案，使用最新的前端技術棧，已經做好大部分項目前期準備工作，並且帶有大量示例代碼，助力管理系統敏捷開發。"
+	"el": {
+		"colorpicker": {
+			"clear": "清空",
+			"confirm": "確認"
+		},
+		"messagebox": {
+			"cancel": "取消",
+			"confirm": "確認"
+		}
+	},
+	"layout": {
+		"header-aside": {
+			"header-fullscreen": {
+				"active": "全屏",
+				"exit": "退出全屏"
+			},
+			"header-log": {
+				"empty": "沒有日誌或異常",
+				"error-length": "包含 {length} 個異常",
+				"log-length": "{length} 條日誌"
+			},
+			"header-size": {
+				"notify": {
+					"message": "已更新頁面內 <b>組件</b> 的 <b>默認尺寸</b><br/>例如按鈕大小，<b>非字號</b>",
+					"title": "提示"
+				},
+				"options": {
+					"default": "默認",
+					"medium": "中",
+					"mini": "最小",
+					"small": "小"
+				}
+			},
+			"header-theme": {
+				"dialog": {
+					"title": "主題"
+				},
+				"list": {
+					"button": {
+						"is-active": "已激活",
+						"select": "選擇"
+					},
+					"column": {
+						"label": {
+							"preview": "預覽"
+						}
+					}
+				},
+				"tooltip": {
+					"content": "主題"
+				}
+			},
+			"header-user": {
+				"hello": "你好",
+				"log-off": "註銷",
+				"not-login": "未登錄"
+			},
+			"menu-item": {
+				"label-default": "未命名菜單"
+			},
+			"menu-side": {
+				"empty": "沒有側欄菜單"
+			},
+			"message": {
+				"warning": {
+					"temporary-menu": "臨時菜單"
+				}
+			},
+			"panel-search": {
+				"autocomplete-placeholder": "搜索頁面",
+				"tip": "你可以使用快捷鍵 <span class='panel-search__key'>{open}</span> 喚醒搜索面板，按 <span class='panel-search__key'>{close}</span> 關閉"
+			},
+			"tabs": {
+				"close-all": "全部關閉",
+				"close-left": "關閉左側",
+				"close-other": "關閉其它",
+				"close-right": "關閉右側",
+				"label-default": "未命名",
+				"refresh": "刷新"
+			}
+		}
+	},
+	"locales-change": {
+		"current-language": "當前語言",
+		"title": "語言變更"
+	},
+	"public": {
+		"confirm": {
+			"special": {
+				"logout": {
+					"message": "",
+					"title": ""
+				}
+			}
+		},
+		"message": {
+			"error": {
+				"form": {
+					"invalid": ""
+				}
+			},
+			"special": {
+				"logout": {
+					"cancel": ""
+				}
+			}
+		},
+		"notify": {
+			"special": {
+				"upload": {
+					"error": {
+						"message": "",
+						"title": ""
+					},
+					"start": {
+						"message": "",
+						"title": ""
+					},
+					"success": {
+						"message": "",
+						"title": ""
+					}
+				}
+			}
+		},
+		"rules": {
+			"required": ""
+		}
+	},
+	"views": {
+		"index": {
+			"menu": {
+				"title": "主頁"
+			}
+		},
+		"program": {
+			"menu": {
+				"title": "廠商管理"
+			}
+		},
+		"system": {
+			"error": {
+				"404": {
+					"back": "返回首頁"
+				}
+			},
+			"index": {
+				"cover": {
+					"build-time": "構建時間",
+					"github-fork-alt": "Fork me on GitHub",
+					"sub-title": "優雅的中後台集成方案",
+					"title": "D2 Admin"
+				},
+				"help": {
+					"button": "需要幫助嗎",
+					"dialog": {
+						"join": {
+							"qq": {
+								"sub-title": "加入 2000 人用戶大群共同交流",
+								"title": "請使用手機 QQ 掃面上方二維碼"
+							},
+							"we": {
+								"sub-title": "添加作者微信好友，邀請加入微信群",
+								"title": "請使用手機微信掃面上方二維碼"
+							}
+						},
+						"link": {
+							"text": {
+								"doc": "文檔",
+								"issues": "歷史提問",
+								"new-issue": "在 Github 提問"
+							}
+						},
+						"sub-title": {
+							"doc": "這裡有一些參考資料",
+							"join": "詢問其它使用者或作者"
+						},
+						"title": "幫助"
+					}
+				},
+				"page": {
+					"link": {
+						"href": {
+							"doc": "https://doc.d2admin.fairyever.com/zh/"
+						},
+						"text": {
+							"d2-projects": "開源組織",
+							"daily": "日報",
+							"doc": "文檔",
+							"ice": "飛冰",
+							"juejin": "掘金",
+							"start-kit": "簡化版"
+						}
+					},
+					"we": {
+						"button": "微信公眾號",
+						"introduce": "官方公眾號，主要推送前端技術類文章、框架資源、學習教程，以及 D2 系列項目更新信息",
+						"title": "今日前端"
+					}
+				}
+			},
+			"log": {
+				"table": {
+					"empty-text": "暫無日誌信息",
+					"label": {
+						"component": "觸發組件",
+						"message": "信息",
+						"more": "查看詳細信息",
+						"time": "時間",
+						"url": "觸發頁面"
+					}
+				},
+				"upload": {
+					"button": "上傳 {number} 條數據"
+				}
+			},
+			"login": {
+				"errors": {
+					"callback": "賬號或密碼不正確",
+					"form": {
+						"password": "請輸入密碼",
+						"username": "請輸入用戶名",
+						"validate": "表單校驗失敗"
+					}
+				},
+				"form": {
+					"button": {
+						"login": "登錄"
+					},
+					"label": {
+						"password": "密碼",
+						"username": "用戶名"
+					},
+					"placeholder": {
+						"password": "密碼",
+						"username": "用戶名"
+					}
 				}
 			}
 		}

@@ -2,6 +2,7 @@ import { mapState } from 'vuex'
 import menuMixin from '../mixin/menu'
 import { createMenu } from '../libs/util.menu'
 import BScroll from 'better-scroll'
+import i18n from '@/i18n'
 
 export default {
   name: 'd2-layout-header-aside-menu-side',
@@ -23,7 +24,7 @@ export default {
         this.aside.length === 0 && !this.asideCollapse
           ? <div class="d2-layout-header-aside-menu-empty" flex="dir:top main:center cross:center">
             <d2-icon name="inbox"></d2-icon>
-            <span>没有侧栏菜单</span>
+            <span>{i18n.t('layout.header-aside.menu-side.empty')}</span>
           </div>
           : null
       }

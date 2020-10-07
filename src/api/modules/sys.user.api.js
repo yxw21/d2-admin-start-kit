@@ -1,4 +1,5 @@
 import { find, assign } from 'lodash'
+import i18n from '@/i18n'
 
 const users = [
   { username: 'admin', password: 'admin', uuid: 'admin-uuid', name: 'Admin' },
@@ -19,7 +20,7 @@ export default ({ service, request, serviceForMock, requestForMock, mock, faker,
         const user = find(users, tools.parse(config.data))
         return user
           ? tools.responseSuccess(assign({}, user, { token: faker.random.uuid() }))
-          : tools.responseError({}, '账号或密码不正确')
+          : tools.responseError({}, i18n.t('views.system.login.errors.callback'))
       })
     // 接口请求
     return requestForMock({
