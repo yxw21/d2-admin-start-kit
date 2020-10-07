@@ -78,12 +78,12 @@ export default {
       'opened',
       'current'
     ]),
-    contextmenuListIndex(){
+    contextmenuListIndex () {
       return [
         { icon: 'times-circle', title: this.$t('layout.header-aside.tabs.close-all'), value: 'all' }
       ]
     },
-    contextmenuList(){
+    contextmenuList () {
       return [
         { icon: 'refresh', title: this.$t('layout.header-aside.tabs.refresh'), value: 'refresh' },
         { icon: 'arrow-left', title: this.$t('layout.header-aside.tabs.close-left'), value: 'left' },

@@ -90,20 +90,20 @@
 		"confirm": {
 			"special": {
 				"logout": {
-					"message": "",
-					"title": ""
+					"message": "註銷當前賬戶嗎? 打開的標籤頁和用戶設置將會被保存。",
+					"title": "確認操作"
 				}
 			}
 		},
 		"message": {
 			"error": {
 				"form": {
-					"invalid": ""
+					"invalid": "表單校驗失敗，請檢查"
 				}
 			},
 			"special": {
 				"logout": {
-					"cancel": ""
+					"cancel": "放棄註銷用戶"
 				}
 			}
 		},
@@ -111,16 +111,16 @@
 			"special": {
 				"upload": {
 					"error": {
-						"message": "",
-						"title": ""
+						"message": "數據上傳失敗",
+						"title": "上傳失敗"
 					},
 					"start": {
-						"message": "",
-						"title": ""
+						"message": "正在上傳數據，請稍後",
+						"title": "開始上傳"
 					},
 					"success": {
-						"message": "",
-						"title": ""
+						"message": "數據上傳成功",
+						"title": "上傳成功"
 					}
 				}
 			}
@@ -130,16 +130,6 @@
 		}
 	},
 	"views": {
-		"index": {
-			"menu": {
-				"title": "主頁"
-			}
-		},
-		"program": {
-			"menu": {
-				"title": "廠商管理"
-			}
-		},
 		"system": {
 			"error": {
 				"404": {
@@ -199,7 +189,8 @@
 						"introduce": "官方公眾號，主要推送前端技術類文章、框架資源、學習教程，以及 D2 系列項目更新信息",
 						"title": "今日前端"
 					}
-				}
+				},
+				"title": ""
 			},
 			"log": {
 				"table": {
@@ -212,6 +203,7 @@
 						"url": "觸發頁面"
 					}
 				},
+				"title": "",
 				"upload": {
 					"button": "上傳 {number} 條數據"
 				}

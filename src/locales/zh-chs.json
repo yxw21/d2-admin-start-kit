@@ -130,16 +130,6 @@
 		}
 	},
 	"views": {
-		"index": {
-			"menu": {
-				"title": "主页"
-			}
-		},
-		"program": {
-			"menu": {
-				"title": "厂商管理"
-			}
-		},
 		"system": {
 			"error": {
 				"404": {
@@ -199,7 +189,8 @@
 						"introduce": "官方公众号，主要推送前端技术类文章、框架资源、学习教程，以及 D2 系列项目更新信息",
 						"title": "今日前端"
 					}
-				}
+				},
+				"title": ""
 			},
 			"log": {
 				"table": {
@@ -212,6 +203,7 @@
 						"url": "触发页面"
 					}
 				},
+				"title": "",
 				"upload": {
 					"button": "上传 {number} 条数据"
 				}

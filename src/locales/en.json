@@ -137,7 +137,6 @@
 				}
 			},
 			"index": {
-				"title": "Home",
 				"cover": {
 					"build-time": "Build time",
 					"github-fork-alt": "Fork me on GitHub",
@@ -190,10 +189,10 @@
 						"introduce": "Official public number, mainly push front-end technical articles, framework resources, learning tutorials, and D2 series project update information",
 						"title": "JS Daily"
 					}
-				}
+				},
+				"title": "Home"
 			},
 			"log": {
-				"title": "Frontend log",
 				"table": {
 					"empty-text": "No log information yet",
 					"label": {
@@ -204,6 +203,7 @@
 						"url": "Trigger page"
 					}
 				},
+				"title": "Frontend log",
 				"upload": {
 					"button": "Upload {number} data"
 				}

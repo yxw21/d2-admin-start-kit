@@ -90,20 +90,20 @@
 		"confirm": {
 			"special": {
 				"logout": {
-					"message": "",
-					"title": ""
+					"message": "現在のアカウントからログアウトできますか？開いているタブとユーザー設定が保存されます。",
+					"title": "確認操作"
 				}
 			}
 		},
 		"message": {
 			"error": {
 				"form": {
-					"invalid": ""
+					"invalid": "フォームの確認に失敗しました。確認してください"
 				}
 			},
 			"special": {
 				"logout": {
-					"cancel": ""
+					"cancel": "ログアウトユーザーを放棄する"
 				}
 			}
 		},
@@ -111,16 +111,16 @@
 			"special": {
 				"upload": {
 					"error": {
-						"message": "",
-						"title": ""
+						"message": "データのアップロードに失敗しました",
+						"title": "アップロードに失敗しました"
 					},
 					"start": {
-						"message": "",
-						"title": ""
+						"message": "データをアップロードしています。しばらくお待ちください",
+						"title": "アップロードを開始"
 					},
 					"success": {
-						"message": "",
-						"title": ""
+						"message": "データのアップロードに成功しました",
+						"title": "アップロード成功"
 					}
 				}
 			}
@@ -130,16 +130,6 @@
 		}
 	},
 	"views": {
-		"index": {
-			"menu": {
-				"title": "ホームページ"
-			}
-		},
-		"program": {
-			"menu": {
-				"title": "ベンダー管理"
-			}
-		},
 		"system": {
 			"error": {
 				"404": {
@@ -199,7 +189,8 @@
 						"introduce": "公式の公開番号。主にフロントエンドの技術記事、フレームワークリソース、学習チュートリアル、およびD2シリーズプロジェクトの更新情報をプッシュします。",
 						"title": "今日のフロントエンド"
 					}
-				}
+				},
+				"title": ""
 			},
 			"log": {
 				"table": {
@@ -212,6 +203,7 @@
 						"url": "トリガーページ"
 					}
 				},
+				"title": "",
 				"upload": {
 					"button": " {number} データをアップロード"
 				}
